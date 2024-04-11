@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+
+summary::marker{
+    display: none;
+    background-color: aqua;
+}
+
+summary {
+    all: unset;
+    cursor: pointer;
+}
